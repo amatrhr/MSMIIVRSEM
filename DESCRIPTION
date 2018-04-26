@@ -1,0 +1,17 @@
+Package: MSMIIVRSEM
+Type: Package
+Title: Instrumental variables metaSEM and regSEM
+Version: 0.1.0
+Author: person("Charles", "Laurin", email = "cl14022@outlook.com", 
+  role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Implements instrumental variables estimators for structural 
+    equation models with latent variables. Can be used to perform meta-analysis 
+    of SEMs and/or to apply L1 regularization to coefficients in the model.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  dplyr,
+  sandwich
+RoxygenNote: 6.0.1
